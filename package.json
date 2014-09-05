@@ -1,0 +1,17 @@
+{
+  "name": "npm-greps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+  	"test": "mocha",
+    "test_hoge": "mocha --grep hoge",
+    "test_foo": "mocha --grep foo"
+  },
+  "author": "shoota",
+  "license": "MIT"
+}
